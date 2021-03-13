@@ -1,0 +1,26 @@
+{
+  "name": "urlino",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove",
+    "sls-tools": "sls-dev-tools"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.91.0",
+    "@tsconfig/node14": "^1.0.0",
+    "@types/aws-lambda": "^8.10.70",
+    "sls-dev-tools": "^1.1.15"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.91.0",
+    "@serverless-stack/cli": "0.9.17",
+    "@serverless-stack/resources": "0.9.17",
+    "dotenv": "^8.2.0",
+    "hashids": "^2.2.8"
+  }
+}

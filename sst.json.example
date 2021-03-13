@@ -1,0 +1,6 @@
+{
+  "name": "your-app-name-in-this-format",
+  "stage": "dev",
+  "region": "the-aws-region-where-your-account-is",
+  "lint": true
+}

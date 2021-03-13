@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #000;
+  --el-bg-color: rgb(25, 25, 25);
+  --accent-color: brown;
+  --el-box-shadow: var(--accent-color) 0px 0px 30px 5px;
+  --txt-color: orange;
+  --field-focus-outline: var(--txt-color) 0px 0px 3px;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  margin: 0;
+}
+
+header {
+  background-color: var(--el-bg-color);
+  box-shadow: var(--el-box-shadow);
+  color: var(--txt-color);
+  line-height: 2;
+  margin-bottom: 5rem;
+  padding: 0.5rem;
+}
+
+form {
+  background-color: var(--el-bg-color);
+  border-radius: 25px;
+  box-shadow: var(--el-box-shadow);
+  margin: 0 auto;
+  max-width: 30rem;
+  padding: 2rem;
+  width: 50%;
+}
+
+fieldset > div {
+  margin-bottom: 1rem;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+fieldset label,
+fieldset input[type='text'] {
+  line-height: 2;
+  color: var(--txt-color);
+}
+
+fieldset input[type='text'] {
+  background-color: rgb(50, 50, 50);
+  border: none;
+  color: white;
+  outline: 0;
+  padding: 0 0.5rem;
+  width: 100%;
+}
+
+fieldset input[type='submit']:focus,
+fieldset input[type='text']:focus {
+  box-shadow: var(--field-focus-outline);
+}
+
+fieldset input[type='submit'] {
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--txt-color);
+  outline: 0;
+  padding: 0.5rem;
+}
+
+#message {
+  color: var(--txt-color);
+}
+
+code {
+  font-size: 110%;
+  color: white;
+}
