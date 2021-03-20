@@ -12,7 +12,7 @@ The goal of the project is to create a baseline for a simple url shortner servic
 - Uses [sst](https://docs.serverless-stack.com/) for faster (and funnier) development
 - Shortening is done using a [Bijective function](https://stackoverflow.com/a/742047/27958) with a minimum length of 2 characters
 - Every time a url is resolved, it increases its "hit" count
-- Well, no cookies served
+- No cookies
 
 ## Disclaimer
 

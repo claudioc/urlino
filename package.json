@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "@aws-cdk/core": "1.91.0",
-    "@serverless-stack/cli": "0.9.17",
-    "@serverless-stack/resources": "0.9.17",
+    "@serverless-stack/cli": "0.10.2",
+    "@serverless-stack/resources": "0.10.2",
     "dotenv": "^8.2.0",
     "hashids": "^2.2.8"
   }
